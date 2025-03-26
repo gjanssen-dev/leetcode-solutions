@@ -6,7 +6,7 @@ var majorityElement = function (nums) {
     return majorityElemenBoyerMoore(nums);
 };
 
-function majorityElementNaive(num) {
+function majorityElementNaive(nums) {
     // solution using hash map in O(n) time and space complexity
     const freq = new Map();
     for (const num of nums) {
